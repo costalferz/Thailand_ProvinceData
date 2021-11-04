@@ -1,0 +1,41 @@
+{ "metadata": {"data_type":"ข้อมูลระเบียน",
+"title":"ข้อมูลจังหวัด",
+"owner_org":"สำนักงานปลัดกระทรวงมหาดไทย",
+"maintainer ":"ศูนย์เทคโนโลยีสารสนเทศและการสื่อสาร สำนักงานปลัดกระทรวงมหาดไทย",
+"maintainer_email":"wilaiporn@moi.go.th, Tel : 022811567",
+"tag_string": ["ข้อมูลระเบียน","ข้อมูลจังหวัด"],
+"notes":"ข้อมูลจังหวัด",
+"objective": ["ไม่ทราบ"],
+        "update_frequency_unit": "Not updated (ไม่มีการ Update)",
+        "update_frequency_interval": "Not updated (ไม่มีการ Update)",
+        "geo_coverage": "",
+        "data_source": "กรมการปกครอง กระทรวงมหาดไทย",
+        "data_format": ["XLS"],
+        "data_category": "ข้อมูลสาธารณะ",
+        "right_of_usage": "Creative Commons Attribution 4.0 (CCBY-4.0)"
+    },
+    "reference_url": "http://edw-opendata.moi.go.th/dataset/page/5f11c44153e2c5c41f84533e7ff826e132364ef9928a4",
+    "parents": [],
+    "schema": [
+        {
+            "field": "PROVINCE_NAME",
+            "type": "VARCHAR2",
+            "description": "จังหวัด"
+        },
+        {
+            "field": "PROVINCE_CODE",
+            "type": "CharField",
+            "description": "รหัสกลุ่มจังหวัด"
+        },
+        {
+            "field": "UPDATE_KEY",
+            "type": "IntegerField",
+            "description": "รหัส Key ของข้อมูล"
+        },
+        {
+            "field": "UPDATE_DATE",
+            "type": "DatetimeField",
+            "description": "วันที่ Update ข้อมูลล่าสุด"
+        }
+    ]
+}

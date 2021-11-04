@@ -1,0 +1,46 @@
+{ "metadata": {"data_type":"ข้อมูลระเบียน",
+"title":"ข้อมูลอำเภอหรือเขต",
+"owner_org":"สำนักงานปลัดกระทรวงมหาดไทย",
+"maintainer ":"ศูนย์เทคโนโลยีสารสนเทศและการสื่อสาร สำนักงานปลัดกระทรวงมหาดไทย",
+"maintainer_email":"wilaiporn@moi.go.th, Tel : 022811567",
+"tag_string": ["ข้อมูลระเบียน","ข้อมูลอำเภอหรือเขต"],
+"notes":"ข้อมูลอำเภอหรือเขต",
+"objective": ["ไม่ทราบ"],
+        "update_frequency_unit": "ปี",
+        "update_frequency_interval": "1",
+        "geo_coverage": "",
+        "data_source": "กรมการปกครอง กระทรวงมหาดไทย",
+        "data_format": ["XLS"],
+        "data_category": "ข้อมูลสาธารณะ",
+        "right_of_usage": "Creative Commons Attribution 4.0 (CCBY-4.0)"
+    },
+    "reference_url": "http://edw-opendata.moi.go.th/dataset/page/5f11c3136644eb89cb14c0f7495c57b84356ee83c43e0",
+    "parents": [],
+    "schema": [
+        {
+            "field": "DISTRICT_NAME_ENG",
+            "type": "VARCHAR2",
+            "description": "ชื่ออำเภอ (ภาษาอังกฤษ)"
+        },
+        {
+            "field": "UPDATE_KEY",
+            "type": "IntegerField",
+            "description": "รหัส Key ของข้อมูล"
+        },
+        {
+            "field": "DISTRICT_CODE",
+            "type": "CharField",
+            "description": "รหัสอำเภอ"
+        },
+        {
+            "field": "DISTRICT_NAME",
+            "type": "VARCHAR2",
+            "description": "ชื่ออำเภอ (ภาษาไทย)"
+        },
+        {
+            "field": "UPDATE_DATE",
+            "type": "DatetimeField",
+            "description": "วันที่ Update ข้อมูลล่าสุด"
+        }
+    ]
+}
